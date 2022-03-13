@@ -8,13 +8,13 @@ export default (state, action) => {
         case 'ADD_TWEET':
             const newTweet = {
                 user: {
-                    name: 'Bharath',
-                    image: 'https://pbs.twimg.com/profile_images/1247964769669136385/KVCROk2D_bigger.jpg',
-                    handle: '@bharathravi27',
+                    name: 'MetaDeSo Club',
+                    image: 'https://ipfs.io/ipfs/QmZGQA92ri1jfzSu61JRaNQXYg1bLuM7p8YT83DzFA2KLH?filename=Chainlink_Knight.png',
+                    handle: '@metaDeSoClub',
                 },
                 tweet: {
                     content: action.payload,
-                    image: null,
+                    image: "",
                     time: '10m',
                     comments: '100',
                     retweets: '320',

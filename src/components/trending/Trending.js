@@ -8,8 +8,8 @@ import { FollowSuggestionsList } from './FollowSuggestionsList';
 export const Trending = () => {
     return (
         <>
-            <div>
-                <div className="search-box flex-align-center">
+            {/* <div> */}
+            {/* <div className="search-box flex-align-center">
                     <SearchIcon />
                     <input placeholder="Search Twitter" className="search-input w-100" type="text" />
                 </div>
@@ -18,8 +18,8 @@ export const Trending = () => {
                 </div>
                 <div className="follow-list">
                     <FollowSuggestionsList />
-                </div>
-            </div>
+                </div> */}
+            {/* </div> */}
         </>
     )
 }

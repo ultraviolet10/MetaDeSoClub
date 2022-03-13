@@ -21,12 +21,12 @@ export const ProfileHead = (props) => {
                 </div>
             </div>
             <div className="banner-img">
-                <img className="w-100" src="https://pbs.twimg.com/profile_banners/822215673812119553/1580922287/600x200" alt="banner" />
+                <img className="w-100" src="https://ipfs.io/ipfs/QmZGQA92ri1jfzSu61JRaNQXYg1bLuM7p8YT83DzFA2KLH?filename=Chainlink_Knight.png" alt="banner" />
 
             </div>
             <div className="profile-dp p-1 flex-space-between">
 
-                <a className="profile-avatar"><SmallAvatar width="128" image="https://pbs.twimg.com/profile_images/1059888693945630720/yex0Gcbi_200x200.jpg" /></a>
+                <a className="profile-avatar"><SmallAvatar width="128" image="https://ipfs.io/ipfs/QmZGQA92ri1jfzSu61JRaNQXYg1bLuM7p8YT83DzFA2KLH?filename=Chainlink_Knight.png" /></a>
                 <div className="follow-me">
                     <MoreIcon />
                     <NotificationIcon />
@@ -44,10 +44,10 @@ export const ProfileHead = (props) => {
                 </div>
                 <div className="profile-description">
                     <p>Welcome to
-                    @WhiteHouse
-                    ! Follow for the latest from President
-                    @realDonaldTrump
- and his Administration. Tweets may be archived: http://whitehouse.gov/privacy</p>
+                        @WhiteHouse
+                        ! Follow for the latest from President
+                        @realDonaldTrump
+                        and his Administration. Tweets may be archived: http://whitehouse.gov/privacy</p>
                 </div>
                 <div className="profile-description-contact">
                     <a className="location flex-align-center "><LocationIcon /> <span className="bold-dull-para pl-1">Washington, D.C</span></a>
